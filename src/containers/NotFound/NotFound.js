@@ -2,8 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
 	return (
-		<div>
-			<h1>404! Page Not Found</h1>
+		<div className=" container relative mx-auto">
+			<h1 className="text-5xl">404! Page Not Found</h1>
 		</div>
 	);
 };

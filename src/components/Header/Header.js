@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import title from '../../assets/title.png';
 import './Header.css';
@@ -26,18 +27,42 @@ const Header = () => {
 						<img className="h-10" src={title} alt="title" />
 					</div>
 					<div className="space-x-8 xl:space-x-12 sm:flex items-center justify-between hidden md:px-0 mr-3">
-						<span className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500 focus:shadow-outline">
+						<NavLink
+							to="/home"
+							activeStyle={{
+								color: '#F9A61A',
+							}}
+							className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500 focus:shadow-outline"
+						>
 							HOME
-						</span>
-						<span className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500">
+						</NavLink>
+						<NavLink
+							to="/courses"
+							activeStyle={{
+								color: '#F9A61A',
+							}}
+							className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500 focus:shadow-outline"
+						>
 							COURSES
-						</span>
-						<span className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500">
-							INSTRUCTION
-						</span>
-						<span className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500">
+						</NavLink>
+						<NavLink
+							to="/instructors"
+							activeStyle={{
+								color: '#F9A61A',
+							}}
+							className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500 focus:shadow-outline"
+						>
+							INSTRUCTORS
+						</NavLink>
+						<NavLink
+							to="/about"
+							activeStyle={{
+								color: '#F9A61A',
+							}}
+							className="link link-underline link-underline-orange text-lg text-white font-semibold cursor-pointer hover:text-yellow-500 focus:shadow-outline"
+						>
 							ABOUT
-						</span>
+						</NavLink>
 					</div>
 				</div>
 			</div>
