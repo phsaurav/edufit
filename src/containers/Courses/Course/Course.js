@@ -5,6 +5,7 @@ import {
 	faPuzzlePiece,
 	faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Course = (props) => {
 	const { name, subtitle, img, price, lessons, Instructor, quiz } =
@@ -57,9 +58,14 @@ const Course = (props) => {
 							{quiz} Quizs
 						</span>
 					</button>
-					<button className="ml-auto flex text-yellow-600 items-center gap-1 sm:text-lg border border-yellow-600 px-3 py-1 rounded-full hover:bg-yellow-600 transition-colors  focus:outline-none focus-visible:border-gray-500 hover:text-white">
-						<span>Subscribe</span>
-					</button>
+					<Link
+						to="/subscribed"
+						className="ml-auto flex text-yellow-600 items-center gap-1 sm:text-lg border border-yellow-600 px-3 py-1 rounded-full hover:bg-yellow-600 transition-colors  focus:outline-none focus-visible:border-gray-500 hover:text-white"
+					>
+						<button>
+							<span>Subscribe</span>
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

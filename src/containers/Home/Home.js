@@ -16,20 +16,20 @@ const Home = () => {
 					courses to lay the foundation for a fit and healthy life.
 				</p>
 			</Hero>
-			<section className="pb-10 bg-blueGray-200 mt-16 h-full">
+			<section className="pb-10 bg-blueGray-200 mt-10 h-full">
 				<div className="lg:container mx-auto px-4">
 					<div className="flex flex-wrap">
-						<div className="lg:pt-12 pt-10 w-full md:w-4/12 px-4 text-center">
+						<div className=" pt-20 w-full md:w-4/12 px-4 text-center">
 							<HomeCard courses={courses[0]}></HomeCard>
 						</div>
 						<div className="w-full md:w-4/12 px-4 text-center">
 							<HomeCard courses={courses[1]}></HomeCard>
 						</div>
-						<div className="w-full pt-4 md:w-4/12 px-4 text-center">
+						<div className="w-full pt-24 md:w-4/12 px-4 text-center">
 							<HomeCard courses={courses[2]}></HomeCard>
 						</div>
-						<div className="pt-6 w-full md:w-4/12 px-4 text-center"></div>
-						<div className=" relateive w-full md:w-4/12 px-4 text-center -mt-10 ">
+						<div className="pt-10 w-full md:w-4/12 px-4 text-center"></div>
+						<div className=" relateive w-full md:w-4/12 px-4 text-center -mt-20 ">
 							<HomeCard courses={courses[3]}></HomeCard>
 						</div>
 						<div className="pt-6 w-full md:w-4/12 px-4 text-center"></div>

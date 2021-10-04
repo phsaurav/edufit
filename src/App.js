@@ -7,6 +7,7 @@ import Courses from './containers/Courses/Courses';
 import Instructors from './containers/Instrutors/Instructors';
 import About from './containers/About/About';
 import NotFound from './containers/NotFound/NotFound';
+import Subscribed from './components/Subscribed/Subscribed';
 
 function App() {
 	return (
@@ -28,6 +29,9 @@ function App() {
 					</Route>
 					<Route path="/about">
 						<About></About>
+					</Route>
+					<Route path="/subscribed">
+						<Subscribed></Subscribed>
 					</Route>
 					<Route>
 						<NotFound></NotFound>
