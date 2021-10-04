@@ -10,7 +10,7 @@ import NotFound from './containers/NotFound/NotFound';
 
 function App() {
 	return (
-		<div className="min-h-screen bg-gray-100 pt-10">
+		<div className=" bg-gray-100 pt-10">
 			<Router>
 				<Header></Header>
 				<Switch>
