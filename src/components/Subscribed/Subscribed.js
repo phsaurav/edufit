@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// *Subscribed Component
 const Subscribed = () => {
 	return (
 		<div>

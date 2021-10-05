@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// *Not Found Container
 const NotFound = () => {
 	return (
 		<div className=" min-h-screen">

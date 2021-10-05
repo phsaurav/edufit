@@ -1,5 +1,6 @@
 import React from 'react';
 
+// *Hero section component
 const Hero = (props) => {
 	return (
 		<div className="h-3/6">

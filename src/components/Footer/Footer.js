@@ -1,5 +1,6 @@
 import React from 'react';
 
+// *Footer section component
 const Footer = () => {
 	return (
 		<div className="relative top-100 w-full h-full">

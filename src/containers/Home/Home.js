@@ -2,6 +2,7 @@ import Hero from '../../components/Hero/Hero';
 import DiveIn from './DiveIn/DiveIn';
 import HomeCard from './HomeCard/HomeCard';
 
+// *Home Page Container
 const Home = () => {
 	return (
 		<div>
@@ -43,6 +44,8 @@ const Home = () => {
 
 export default Home;
 
+// *4 Home Course Data
+// !For variable position of cards in home cant use map and use fetched data from courses.json
 const courses = [
 	{
 		key: 'B001RL8IYK',

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// *DiveIn component of Home page container
 const DiveIn = () => {
 	return (
 		<div>

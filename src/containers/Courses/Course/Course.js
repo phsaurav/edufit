@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
+// *course component of courses container
 const Course = (props) => {
 	const { name, subtitle, img, price, lessons, Instructor, quiz } =
 		props.course;

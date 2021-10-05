@@ -8,6 +8,7 @@ import {
 	faRunning,
 } from '@fortawesome/free-solid-svg-icons';
 
+// *About Page Container
 const About = () => {
 	return (
 		<div className="min-h-full">

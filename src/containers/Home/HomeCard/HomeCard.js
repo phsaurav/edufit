@@ -1,5 +1,6 @@
 import React from 'react';
 
+// *HomeCard component of Home page container
 const HomeCard = (props) => {
 	const { name, subtitle, img, price } = props.courses;
 	return (

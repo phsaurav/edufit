@@ -1,13 +1,16 @@
+// *Imports
 import './App.css';
-import Header from './components/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './containers/Home/Home';
+// *Importing All Components
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Subscribed from './components/Subscribed/Subscribed';
+// *Importing All Containers
+import Home from './containers/Home/Home';
 import Courses from './containers/Courses/Courses';
 import Instructors from './containers/Instrutors/Instructors';
 import About from './containers/About/About';
 import NotFound from './containers/NotFound/NotFound';
-import Subscribed from './components/Subscribed/Subscribed';
 
 function App() {
 	return (

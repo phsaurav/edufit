@@ -3,7 +3,9 @@ import Hero from '../../components/Hero/Hero';
 import useCourses from '../../hooks/useCourses';
 import Course from './Course/Course';
 
+// *Courses Page Container
 const Courses = () => {
+	// *Importing courses data form courses.json
 	const [courses] = useCourses();
 	return (
 		<div>

@@ -3,7 +3,9 @@ import Hero from '../../components/Hero/Hero';
 import useInstructor from '../../hooks/useInstructor';
 import Instructor from './Instructor/Instructor';
 
+// *Instructors Page Container
 const Instructors = () => {
+	// *Importing instructor data form instructor.json
 	const [instructors] = useInstructor();
 	return (
 		<div>

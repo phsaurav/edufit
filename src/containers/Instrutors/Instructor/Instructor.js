@@ -1,5 +1,6 @@
 import React from 'react';
 
+// *Instructor component of Instructors container
 const Instructor = (props) => {
 	const { name, subtitle, Description, img } = props.instructor;
 	return (

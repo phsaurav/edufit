@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
+// *Header section Component
 const Header = () => {
 	return (
 		<div>
