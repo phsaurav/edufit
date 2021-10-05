@@ -22,14 +22,14 @@ const About = () => {
 			<div className="mb-10 container mx-auto">
 				<section class="relative pt-32 pb-16">
 					<div class="items-center flex flex-wrap justify-center">
-						<div class="ml-auto px-4">
+						<div class="md:ml-auto px-4">
 							<img
 								alt="..."
 								class="w-96 h-96 rounded-lg shadow-lg object-cover mt-10"
 								src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/79/a1/38/79a138a9-c3f1-07fb-07fc-f277fe2b34e6/YO_JS_0004_0115_20200807_vs3.png/1200x675.jpg"
 							/>
 						</div>
-						<div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+						<div class="w-full px-10 md:px-3 md:w-5/12 md:mr-auto px-4">
 							<div class="md:pr-12">
 								<div class="text-yellow-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-yellow-100 mt-8">
 									<FontAwesomeIcon

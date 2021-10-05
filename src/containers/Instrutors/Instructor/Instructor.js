@@ -5,7 +5,7 @@ const Instructor = (props) => {
 	return (
 		<div>
 			<div className=" sm:max-w-xl min-w-lg mx-5 mb-20">
-				<div className="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
+				<div className="bg-white shadow-lg border-gray-100 max-h-80	 border rounded-3xl p-8 flex space-x-8">
 					<div className=" overflow-visible w-1/2">
 						<img
 							className="h-80 rounded-3xl shadow-lg object-cover"
