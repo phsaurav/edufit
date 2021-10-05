@@ -20,7 +20,7 @@ const Subscribed = () => {
 					/>
 					<Link
 						to="/courses"
-						className="mx-auto flex text-yellow-600 items-center gap-1 sm:text-lg border border-yellow-600 px-3 py-1 rounded-full hover:bg-yellow-600 transition-colors  focus:outline-none focus-visible:border-gray-500 hover:text-white w-40 text-center justify-center mt-5"
+						className="mx-auto flex text-yellow-600 items-center gap-1 sm:text-lg border border-yellow-600 px-3 py-1 rounded-full hover:bg-yellow-600 transition-colors  focus:outline-none focus-visible:border-gray-500 hover:text-white w-40 text-center justify-center mt-5 mb-5"
 					>
 						<button>
 							<span>Go Back</span>
