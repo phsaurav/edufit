@@ -4,12 +4,13 @@ const Hero = (props) => {
 	return (
 		<div className="h-3/6">
 			<div
-				className="absolute top-0 w-full h-3/6"
+				className="absolute top-0 w-full"
 				style={{
 					backgroundImage: `url(${props.url})`,
 					backgroundAttachment: 'fixed',
 					backgroundSize: 'cover',
 					backgroundPosition: 'top',
+					height: '650px',
 				}}
 			>
 				<div>
@@ -19,7 +20,7 @@ const Hero = (props) => {
 					></span>
 				</div>
 			</div>
-			<div className="container relative mx-auto flex items-center mt-40 justify-center">
+			<div className="container relative mx-auto flex items-center mt-20 sm:mt-40 justify-center">
 				<div className="items-center flex justify-center flex-wrap">
 					<div className="w-full  px-4 ml-auto mr-auto text-center">
 						<div className=" text-left">{props.children}</div>
