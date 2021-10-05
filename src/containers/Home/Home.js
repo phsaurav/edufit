@@ -6,11 +6,11 @@ const Home = () => {
 	return (
 		<div>
 			<Hero url={'/assets/cover/cover_home.jpg'}>
-				<div className="text-yellow-500 lg:w-6/12 font-bold uppercase text-6xl italic">
+				<div className="text-yellow-500 lg:w-6/12 font-bold uppercase text-6xl italic lg:ml-8">
 					<h1>GET FIT</h1>
 					<h1>GET STRONGER</h1>
 				</div>
-				<p className="mt-4 lg:w-6/12 text-xl text-white">
+				<p className="mt-4 lg:w-6/12 text-xl text-white lg:ml-8">
 					Thanks for visiting EduFit. Our mission is to deliver
 					exceptional, approved education in all of our online fitness
 					courses to lay the foundation for a fit and healthy life.
