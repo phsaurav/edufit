@@ -8,7 +8,7 @@ const Instructors = () => {
 	// *Importing instructor data form instructor.json
 	const [instructors] = useInstructor();
 	return (
-		<div>
+		<div className="min-h-screen">
 			<div className="pb-52">
 				<Hero url={'/assets/cover/cover_instractors.jpg'}>
 					<div className=" font-bold  uppercase text-7xl italic">
