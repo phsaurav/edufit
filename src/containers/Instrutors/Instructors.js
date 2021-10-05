@@ -13,7 +13,7 @@ const Instructors = () => {
 				<Hero url={'/assets/cover/cover_instractors.jpg'}>
 					<div className=" font-bold  uppercase text-7xl italic">
 						<h1 className="text-yellow-500">We are here</h1>
-						<h1 className="text-white">For to help</h1>
+						<h1 className="text-white">to help You</h1>
 					</div>
 				</Hero>
 			</div>

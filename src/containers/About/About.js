@@ -46,7 +46,7 @@ const About = () => {
 									education institution.The following list
 									identifies some of the primary staff
 									involved in the direct, daily operations of
-									NFE. We have a highly experienced fitness
+									EduFit. We have a highly experienced fitness
 									tutor team.
 								</p>
 								<ul class="list-none mt-6">
