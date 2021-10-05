@@ -4,9 +4,12 @@ const Hero = (props) => {
 	return (
 		<div className="h-3/6">
 			<div
-				className="absolute top-0 w-full h-3/6 bg-center bg-cover"
+				className="absolute top-0 w-full h-3/6"
 				style={{
 					backgroundImage: `url(${props.url})`,
+					backgroundAttachment: 'fixed',
+					backgroundSize: 'cover',
+					backgroundPosition: 'top',
 				}}
 			>
 				<div>

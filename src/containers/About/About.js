@@ -10,7 +10,7 @@ import {
 
 const About = () => {
 	return (
-		<div>
+		<div className="min-h-full">
 			<div className="pb-52">
 				<Hero url={'/assets/cover/cover_about.jpg'}>
 					<div className=" font-bold  uppercase text-7xl italic text-center">
@@ -19,8 +19,8 @@ const About = () => {
 					</div>
 				</Hero>
 			</div>
-			<div className="mb-10 container mx-auto">
-				<section class="relative pt-32 pb-16">
+			<div className="container mx-auto ">
+				<section class="relative pt-32  pb-36">
 					<div class="items-center flex flex-wrap justify-center">
 						<div class="md:ml-auto px-4">
 							<img
@@ -84,7 +84,7 @@ const About = () => {
 										</div>
 									</li>
 									<li class="py-2">
-										<div class="flex items-center items-center">
+										<div class="flex items-center">
 											<div>
 												<span class=" flex justify-center items-center uppercase rounded-full text-yellow-500  mr-3 text-center">
 													<FontAwesomeIcon
